@@ -45,7 +45,7 @@ const cryptoHomeDisplay = () => {
 
 const features = [
     "Cool page themes",
-    "Something else"
+    "I'm thinking..."
 ];
 
 const info = [
