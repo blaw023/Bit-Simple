@@ -11,7 +11,7 @@ import {Player} from 'video-react';
 
 const aboutMe = () => (
   <div className="container-fluid">
-    <CardGroup itemsPerRow={6}>
+    <CardGroup itemsPerRow={6} stackable>
           <Card>
             <Image src={scranton} size="medium" />
             <Card.Content>
