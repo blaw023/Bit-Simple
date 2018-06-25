@@ -32,44 +32,56 @@ class CryptoGlobalData extends Component{
 
         if(cryptoExchangeData.data) {
             return (
-                 <SegmentGroup horizontal>
-                    <Segment>
-                            <Label size="large">
-                                <Icon name="chain"/>Active currencies:
-                                <Label.Detail>{cryptoExchangeData.data.active_cryptocurrencies}</Label.Detail>
-                            </Label>
-                    </Segment>
-                      <Segment>
-                            <Label size="large">
-                                <Icon name="in cart"/>Active markets:
-                                <Label.Detail>{cryptoExchangeData.data.active_markets}</Label.Detail>
-                            </Label>
-                      </Segment>
-                      <Segment>
-                            <Label size="large">
-                                <Icon name="money"/>24 Hour Volume:
-                                <Label.Detail>
-                                    <NumberFormat
-                                        value={cryptoExchangeData.data.quotes.USD.total_volume_24h}
-                                        displayType={'text'}
-                                        thousandSeparator={true}
-                                        prefix={'$'} />
-                                </Label.Detail>
-                            </Label>
-                      </Segment>
-                      <Segment>
-                            <Label size="large">
-                                <Icon name="money" /> Market Cap:
-                                <Label.Detail>
-                                    <NumberFormat
-                                        value={cryptoExchangeData.data.quotes.USD.total_market_cap}
-                                        displayType={'text'}
-                                        thousandSeparator={true}
-                                        prefix={'$'} />
-                                </Label.Detail>
-                            </Label>
-                      </Segment>
-          </SegmentGroup>
+                    <div className="row">
+                        <div className="col col-md-3">
+                                <Segment color="blue">
+                                        <Label size="large">
+                                            <Icon name="chain"/>Active currencies:
+                                            <Label.Detail>{cryptoExchangeData.data.active_cryptocurrencies}</Label.Detail>
+                                        </Label>
+                                </Segment>
+                        </div>
+
+                       <div className="col col-md-3">
+                          <Segment color="blue">
+                                <Label size="large">
+                                    <Icon name="in cart"/>Active markets:
+                                    <Label.Detail>{cryptoExchangeData.data.active_markets}</Label.Detail>
+                                </Label>
+                          </Segment>
+                       </div>
+
+                       <div className="col col-md-3">
+                          <Segment color="blue">
+                                <Label size="large">
+                                    <Icon name="money"/>24 Hour Volume:
+                                    <Label.Detail>
+                                        <NumberFormat
+                                            value={cryptoExchangeData.data.quotes.USD.total_volume_24h}
+                                            displayType={'text'}
+                                            thousandSeparator={true}
+                                            prefix={'$'} />
+                                    </Label.Detail>
+                                </Label>
+                          </Segment>
+                       </div>
+
+                       <div className="col col-md-3">
+                          <Segment color="blue">
+                                <Label size="large">
+                                    <Icon name="money" /> Market Cap:
+                                    <Label.Detail>
+                                        <NumberFormat
+                                            value={cryptoExchangeData.data.quotes.USD.total_market_cap}
+                                            displayType={'text'}
+                                            thousandSeparator={true}
+                                            prefix={'$'} />
+                                    </Label.Detail>
+                                </Label>
+                          </Segment>
+                       </div>
+                    </div>
+
             )
         }
 

@@ -36,6 +36,7 @@ const cryptoHomeDisplay = () => {
                        />
                     </div>
                 </div>
+                <br/>
                 <CryptoGlobalData/>
                 <br/>
                 <CryptoTable/>
