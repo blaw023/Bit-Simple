@@ -46,6 +46,12 @@ react-draggable, .cursor {
     margin: 0 !important;
 }
 
+.ui.medium.image, .ui.medium.images .image, .ui.medium.images img, .ui.medium.images svg {
+    width: 100% !important;
+}
+
+
+
 .calendarPadding {
     padding: 10px;
 }
