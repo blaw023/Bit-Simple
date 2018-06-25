@@ -1,0 +1,748 @@
+2018-06-22 18:26:07,490:INFO:<property object at 0x7fe1abdf19f8>
+2018-06-22 18:26:17,767:ERROR:Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2018-06-22 19:12:45,869:INFO:<property object at 0x7ff7259789a8>
+2018-06-22 20:55:27,732:INFO:<property object at 0x7f2f624b39a8>
+2018-06-22 22:09:39,740:ERROR:Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/library.py", line 192, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/webpack_loader/templatetags/webpack_loader.py", line 12, in render_bundle
+    tags = utils.get_as_tags(bundle_name, extension=extension, config=config, attrs=attrs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/webpack_loader/utils.py", line 45, in get_as_tags
+    bundle = _get_bundle(bundle_name, extension, config)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/webpack_loader/utils.py", line 23, in _get_bundle
+    bundle = get_loader(config).get_bundle(bundle_name)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/webpack_loader/loader.py", line 97, in get_bundle
+    raise WebpackError(error)
+webpack_loader.exceptions.WebpackError: 
+            ModuleError in 
+            
+  Line 80:  'data' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+            
+2018-06-22 22:09:40,052:WARNING:Not Found: /favicon.ico
+2018-06-23 02:05:00,059:INFO:<property object at 0x7fdf67ce99a8>
+2018-06-23 02:59:46,204:ERROR:Internal Server Error: /api/
+Traceback (most recent call last):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 194, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 236, in get_new_connection
+    return Database.connect(**conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/__init__.py", line 86, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/connections.py", line 204, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+_mysql_exceptions.OperationalError: (2026, 'SSL connection error: protocol version mismatch')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/mixins.py", line 48, in list
+    return Response(serializer.data)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/query.py", line 272, in __iter__
+    self._fetch_all()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/query.py", line 106, in __iter__
+    for row in compiler.results_iter(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1019, in results_iter
+    results = self.execute_sql(MULTI, chunked_fetch=chunked_fetch, chunk_size=chunk_size)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1066, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 255, in cursor
+    return self._cursor()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 232, in _cursor
+    self.ensure_connection()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 194, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 236, in get_new_connection
+    return Database.connect(**conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/__init__.py", line 86, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/connections.py", line 204, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (2026, 'SSL connection error: protocol version mismatch')
+2018-06-23 04:08:48,581:INFO:<property object at 0x7f94fd2ea9a8>
+2018-06-23 04:38:21,787:ERROR:Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/library.py", line 192, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/webpack_loader/templatetags/webpack_loader.py", line 12, in render_bundle
+    tags = utils.get_as_tags(bundle_name, extension=extension, config=config, attrs=attrs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/webpack_loader/utils.py", line 45, in get_as_tags
+    bundle = _get_bundle(bundle_name, extension, config)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/webpack_loader/utils.py", line 23, in _get_bundle
+    bundle = get_loader(config).get_bundle(bundle_name)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/webpack_loader/loader.py", line 97, in get_bundle
+    raise WebpackError(error)
+webpack_loader.exceptions.WebpackError: 
+            ModuleError in 
+            
+  Line 93:  Parsing error: Unexpected token, expected ,
+
+  91 | 
+  92 |     getSelectedCurrency = (e, currencyType) => {
+> 93 |         axios.get(`https://api.coinmarketcap.com/v2/ticker/?convert=`${currencyType.value}`limit=50&structure=array`)
+     |                                                                      ^
+  94 |             .then(resp => {
+  95 |                 console.log(resp.data);
+  96 |             }).catch(error => {
+
+
+            
+2018-06-23 04:38:22,103:WARNING:Not Found: /favicon.ico
+2018-06-23 04:52:24,447:ERROR:Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/library.py", line 192, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/webpack_loader/templatetags/webpack_loader.py", line 12, in render_bundle
+    tags = utils.get_as_tags(bundle_name, extension=extension, config=config, attrs=attrs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/webpack_loader/utils.py", line 45, in get_as_tags
+    bundle = _get_bundle(bundle_name, extension, config)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/webpack_loader/utils.py", line 23, in _get_bundle
+    bundle = get_loader(config).get_bundle(bundle_name)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/webpack_loader/loader.py", line 97, in get_bundle
+    raise WebpackError(error)
+webpack_loader.exceptions.WebpackError: 
+            ModuleError in 
+            
+  Line 31:  Parsing error: Unexpected token
+
+  29 |           axios.get(devApiUrl)
+  30 |               .then(resp => {
+> 31 |                   this.setState({tableDataPerPage: .clone(resp.data.splice(0, 10)), data: resp.data});
+     |                                                    ^
+  32 |                   this.props.updateCryptoTableData(resp.data);
+  33 |               }).catch(function (error) {throw error;});
+  34 |       } else {
+
+
+            
+2018-06-24 14:22:50,472:INFO:<property object at 0x7fbae5b5d9a8>
+2018-06-24 15:35:55,074:INFO:<property object at 0x7fc1c4ba29a8>
+2018-06-24 19:06:19,584:INFO:<property object at 0x7f2b465c39a8>
+2018-06-24 19:07:00,562:INFO:<property object at 0x7f0e1984f9a8>
+2018-06-24 20:52:15,684:INFO:<property object at 0x7f55d8f519a8>
+2018-06-24 22:04:06,982:INFO:<property object at 0x7f0fbdeb89a8>
+2018-06-24 23:12:09,820:ERROR:Internal Server Error: /api/
+Traceback (most recent call last):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 194, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 236, in get_new_connection
+    return Database.connect(**conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/__init__.py", line 86, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/connections.py", line 204, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+_mysql_exceptions.OperationalError: (2026, 'SSL connection error: protocol version mismatch')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/mixins.py", line 48, in list
+    return Response(serializer.data)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/query.py", line 272, in __iter__
+    self._fetch_all()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/query.py", line 106, in __iter__
+    for row in compiler.results_iter(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1019, in results_iter
+    results = self.execute_sql(MULTI, chunked_fetch=chunked_fetch, chunk_size=chunk_size)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1066, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 255, in cursor
+    return self._cursor()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 232, in _cursor
+    self.ensure_connection()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 194, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 236, in get_new_connection
+    return Database.connect(**conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/__init__.py", line 86, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/connections.py", line 204, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (2026, 'SSL connection error: protocol version mismatch')
+2018-06-25 00:45:56,487:INFO:<property object at 0x7f3ad782a9a8>
+2018-06-25 01:01:27,836:ERROR:Internal Server Error: /api/
+Traceback (most recent call last):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 194, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 236, in get_new_connection
+    return Database.connect(**conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/__init__.py", line 86, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/connections.py", line 204, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+_mysql_exceptions.OperationalError: (2005, "Unknown MySQL server host 'mycryptinstance.csf5oqtx79zr.us-east-1.rds.amazonaws.com' (2)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/mixins.py", line 48, in list
+    return Response(serializer.data)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/query.py", line 272, in __iter__
+    self._fetch_all()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/query.py", line 106, in __iter__
+    for row in compiler.results_iter(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1019, in results_iter
+    results = self.execute_sql(MULTI, chunked_fetch=chunked_fetch, chunk_size=chunk_size)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1066, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 255, in cursor
+    return self._cursor()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 232, in _cursor
+    self.ensure_connection()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 194, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 236, in get_new_connection
+    return Database.connect(**conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/__init__.py", line 86, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/connections.py", line 204, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (2005, "Unknown MySQL server host 'mycryptinstance.csf5oqtx79zr.us-east-1.rds.amazonaws.com' (2)")
+2018-06-25 01:02:11,514:ERROR:Internal Server Error: /api/
+Traceback (most recent call last):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 194, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 236, in get_new_connection
+    return Database.connect(**conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/__init__.py", line 86, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/connections.py", line 204, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+_mysql_exceptions.OperationalError: (2005, "Unknown MySQL server host 'mycryptinstance.csf5oqtx79zr.us-east-1.rds.amazonaws.com' (2)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/mixins.py", line 48, in list
+    return Response(serializer.data)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/query.py", line 272, in __iter__
+    self._fetch_all()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/query.py", line 106, in __iter__
+    for row in compiler.results_iter(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1019, in results_iter
+    results = self.execute_sql(MULTI, chunked_fetch=chunked_fetch, chunk_size=chunk_size)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1066, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 255, in cursor
+    return self._cursor()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 232, in _cursor
+    self.ensure_connection()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 194, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 236, in get_new_connection
+    return Database.connect(**conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/__init__.py", line 86, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/connections.py", line 204, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (2005, "Unknown MySQL server host 'mycryptinstance.csf5oqtx79zr.us-east-1.rds.amazonaws.com' (2)")
+2018-06-25 01:02:14,013:ERROR:Internal Server Error: /api/
+Traceback (most recent call last):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 194, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 236, in get_new_connection
+    return Database.connect(**conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/__init__.py", line 86, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/connections.py", line 204, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+_mysql_exceptions.OperationalError: (2005, "Unknown MySQL server host 'mycryptinstance.csf5oqtx79zr.us-east-1.rds.amazonaws.com' (2)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/mixins.py", line 48, in list
+    return Response(serializer.data)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/query.py", line 272, in __iter__
+    self._fetch_all()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/query.py", line 106, in __iter__
+    for row in compiler.results_iter(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1019, in results_iter
+    results = self.execute_sql(MULTI, chunked_fetch=chunked_fetch, chunk_size=chunk_size)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1066, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 255, in cursor
+    return self._cursor()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 232, in _cursor
+    self.ensure_connection()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 194, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 236, in get_new_connection
+    return Database.connect(**conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/__init__.py", line 86, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/connections.py", line 204, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (2005, "Unknown MySQL server host 'mycryptinstance.csf5oqtx79zr.us-east-1.rds.amazonaws.com' (2)")
+2018-06-25 01:02:38,181:INFO:<property object at 0x7fc16c9c19a8>
+2018-06-25 01:04:55,311:INFO:<property object at 0x7fc8172d39a8>
+2018-06-25 01:06:36,364:ERROR:Internal Server Error: /api/
+Traceback (most recent call last):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 194, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 236, in get_new_connection
+    return Database.connect(**conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/__init__.py", line 86, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/connections.py", line 204, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+_mysql_exceptions.OperationalError: (2005, "Unknown MySQL server host 'mycryptinstance.csf5oqtx79zr.us-east-1.rds.amazonaws.com' (2)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/mixins.py", line 48, in list
+    return Response(serializer.data)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/query.py", line 272, in __iter__
+    self._fetch_all()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/query.py", line 106, in __iter__
+    for row in compiler.results_iter(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1019, in results_iter
+    results = self.execute_sql(MULTI, chunked_fetch=chunked_fetch, chunk_size=chunk_size)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1066, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 255, in cursor
+    return self._cursor()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 232, in _cursor
+    self.ensure_connection()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 194, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 236, in get_new_connection
+    return Database.connect(**conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/__init__.py", line 86, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/connections.py", line 204, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (2005, "Unknown MySQL server host 'mycryptinstance.csf5oqtx79zr.us-east-1.rds.amazonaws.com' (2)")
+2018-06-25 01:08:12,402:ERROR:Internal Server Error: /api/
+Traceback (most recent call last):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 194, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 236, in get_new_connection
+    return Database.connect(**conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/__init__.py", line 86, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/connections.py", line 204, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+_mysql_exceptions.OperationalError: (2005, "Unknown MySQL server host 'mycryptinstance.csf5oqtx79zr.us-east-1.rds.amazonaws.com' (2)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/viewsets.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/mixins.py", line 48, in list
+    return Response(serializer.data)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/query.py", line 272, in __iter__
+    self._fetch_all()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/query.py", line 106, in __iter__
+    for row in compiler.results_iter(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1019, in results_iter
+    results = self.execute_sql(MULTI, chunked_fetch=chunked_fetch, chunk_size=chunk_size)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1066, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 255, in cursor
+    return self._cursor()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 232, in _cursor
+    self.ensure_connection()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 216, in ensure_connection
+    self.connect()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/base/base.py", line 194, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 236, in get_new_connection
+    return Database.connect(**conn_params)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/__init__.py", line 86, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/MySQLdb/connections.py", line 204, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (2005, "Unknown MySQL server host 'mycryptinstance.csf5oqtx79zr.us-east-1.rds.amazonaws.com' (2)")
+2018-06-25 01:13:39,623:WARNING:Not Found: /https://github.com/blaw023
+2018-06-25 01:13:39,717:WARNING:Not Found: /favicon.ico
+2018-06-25 01:13:48,470:WARNING:Not Found: /https://aboutbranden.azurewebsites.net
+2018-06-25 01:16:03,320:WARNING:Not Found: /https://www.linkedin.com/in/branden-lawrence-b0191b81/
+2018-06-25 01:16:56,026:WARNING:Not Found: /https://github.com/blaw023
+2018-06-25 01:20:59,604:WARNING:Not Found: /https://aboutbranden.azurewebsites.net
+2018-06-25 01:26:09,514:WARNING:Not Found: /https://www.instagram.com/blaw023/
+2018-06-25 01:26:18,887:WARNING:Not Found: /https://aboutbranden.azurewebsites.net
+2018-06-25 01:26:46,330:WARNING:Not Found: /https://www.instagram.com/blaw023/
+2018-06-25 01:32:36,541:WARNING:Not Found: /https:/www.instagram.com/blaw023/
+2018-06-25 01:45:30,176:ERROR:Internal Server Error: /aboutme
+Traceback (most recent call last):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/library.py", line 192, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/webpack_loader/templatetags/webpack_loader.py", line 12, in render_bundle
+    tags = utils.get_as_tags(bundle_name, extension=extension, config=config, attrs=attrs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/webpack_loader/utils.py", line 45, in get_as_tags
+    bundle = _get_bundle(bundle_name, extension, config)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/webpack_loader/utils.py", line 23, in _get_bundle
+    bundle = get_loader(config).get_bundle(bundle_name)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/webpack_loader/loader.py", line 97, in get_bundle
+    raise WebpackError(error)
+webpack_loader.exceptions.WebpackError: 
+            ModuleError in 
+            
+  Line 36:  'button' is not defined  no-undef
+  Line 38:  'button' is not defined  no-undef
+  Line 40:  'button' is not defined  no-undef
+  Line 42:  'button' is not defined  no-undef
+  Line 44:  'button' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+            
+2018-06-25 01:49:28,879:ERROR:Internal Server Error: /aboutme
+Traceback (most recent call last):
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/django/template/library.py", line 192, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/webpack_loader/templatetags/webpack_loader.py", line 12, in render_bundle
+    tags = utils.get_as_tags(bundle_name, extension=extension, config=config, attrs=attrs)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/webpack_loader/utils.py", line 45, in get_as_tags
+    bundle = _get_bundle(bundle_name, extension, config)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/webpack_loader/utils.py", line 23, in _get_bundle
+    bundle = get_loader(config).get_bundle(bundle_name)
+  File "/home/branden/Public/branden/bit-simple/blaw-env/lib/python3.6/site-packages/webpack_loader/loader.py", line 97, in get_bundle
+    raise WebpackError(error)
+webpack_loader.exceptions.WebpackError: 
+            ModuleError in 
+            
+  Line 36:  'a' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+            
